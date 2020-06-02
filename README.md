@@ -9,6 +9,7 @@
 - git config: Set or get configuration
 - git log: Show history of project commits
 - git checkout: Check out branch (update HEAD and apply changes to working directory)
+- git merge: Merge changes from different branches
 
 ## Commit messages
 
@@ -23,3 +24,7 @@ Or use `git commit -m "<message"`
 - Don't end with a `.`
 
 For more advice, see: https://chris.beams.io/posts/git-commit/
+
+## Merging 
+
+Merge means to bring the changes from one branch into another.
