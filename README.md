@@ -25,6 +25,6 @@ Or use `git commit -m "<message"`
 
 For more advice, see: https://chris.beams.io/posts/git-commit/
 
-## Merging 
+## Merging
 
 Merge means to bring the changes from one branch into another.
