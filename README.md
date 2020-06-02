@@ -13,6 +13,9 @@
 - git checkout -b: Create branch, then check it out
 - git branch: List branches
 - git merge: Merge changes from different branches
+- git stash: Stash changes from working directory
+- git stash list: list stashes
+- git stash pop: Apply stashed changes to working directory
 
 ## What's a branch?
 
@@ -21,7 +24,6 @@ A branch is a ref(erence) to a commit. When HEAD points to a branch, we say we'r
 ## What's HEAD?
 
 HEAD is a ref(erence) to the "current" branch (or sometimes a commit... more on that later). Git commands like `status`, `log`, and `branch` use HEAD. `git checkout` updates HEAD to ref(er) to a different branch.
-
 
 ## Commit messages
 
